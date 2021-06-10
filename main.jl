@@ -73,7 +73,7 @@ xgrid!(:off)
 ygrid!(:off)
 xlabel!("Capital distribution")
 # %%
-plot(1:T, x[end] + dx[end-1,:])
+plot(1:T, x[end] .+ dx[end-1,:])
 xlabel!("Time")
 ylabel!("Aggregate capital")
 xgrid!(:off)
